@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: skyblue;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 2.9;
+}
+
+h1 {
+  font-size: 50px;
+}
+ol {
+  margin-left: 70px;
+}
+
+ol li  {
+  font-size: 30px;
+  padding: 10px;
+  color: black;
+  
+}
+ol li a abbr {
+  text-decoration: none;
+}
+ 
+ol li a  {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  font-style: italic;
+}
+ol li a:hover {
+  color: blue;
+}
+ 
+
+
+
